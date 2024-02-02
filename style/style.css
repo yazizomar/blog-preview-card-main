@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('Figtree-VariableFont_wght.ttf') format('truetype-variations'),
+        url('Figtree-ExtraBold.ttf') format('truetype'),
+        url('Figtree-SemiBold.ttf') format('truetype'),
+        url('Figtree-Italic-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 600 800;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    color: hsl(0, 0%, 7%);
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.blog-card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 375px;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border: 2px solid hsl(0, 0%, 7%);
+  box-shadow: 13px 13px 1px hsl(0, 0%, 7%);
+}
+
+
+.card-header {
+    padding: 20px 20px 0px 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card-header img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 0px 20px 20px 20px;
+}
+
+.category {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    padding: 4px 16px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+
+}
+
+.date-published {
+    color: hsl(0, 0%, 7%);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+}
+
+.description {
+    color: hsl(0, 0%, 50%)
+}
+
+
+.card-body h1 {
+    color: hsl(0, 0%, 7%);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.card-body h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 15px;
+}
+
+.author img {
+    width: 35px;
+    border-radius: 100px;
+}
+
+.author a {
+    padding-left: 5px;
+    color: hsl(0, 0%, 7%);
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration-line: none;
+}
+.author a:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
